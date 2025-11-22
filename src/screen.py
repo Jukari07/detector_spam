@@ -4,7 +4,6 @@ import spam_detector  # Importar nuestro módulo
 def analizar_email():
   # Función que se ejecuta al presionar el botón
   texto = entrada_email.get()
-  
   if texto == "":
     etiqueta_resultado.config(text="Por favor escribe un email")
     return
