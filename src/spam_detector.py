@@ -5,7 +5,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 import os
 
-
 def obtener_ruta_datos():
   # Obtiene la ruta al archivo de datos" 
   script_dir = os.path.dirname(__file__)  # src/
