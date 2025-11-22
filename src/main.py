@@ -3,7 +3,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
-
 # 1. Cargar los datos
 import os
 data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'spam.csv')
