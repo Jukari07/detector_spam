@@ -3,7 +3,6 @@ from tkinter import messagebox
 
 def mostrar_mensaje():
     messagebox.showinfo("Aviso", "Botón presionado")
-
 #GUI
 root = tk.Tk()
 root.title("Detector de Spam")
