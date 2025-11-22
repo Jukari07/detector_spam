@@ -1,7 +1,6 @@
 import tkinter as tk
 import spam_detector  # Importar nuestro módulo
 
-
 def analizar_email():
   # Función que se ejecuta al presionar el botón
   texto = entrada_email.get()
